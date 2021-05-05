@@ -22,7 +22,7 @@ except:
 
 setup(
     # Self-descriptive entries which should always be present
-    name='project',
+    name='projectwithanewname',
     url='https://github.com/cabb99/cookiecutter-cms',
     author='cookie monster',
     author_email='cookiemonster@trash.can',
