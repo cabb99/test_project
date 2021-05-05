@@ -18,5 +18,5 @@ def test_openmm_imported():
 
 def test_openmm_simulation():
     """Checks that an OpenMM runs correctly """
-    print(project.project.openmm_simulation.__code__
+    print(project.project.openmm_simulation.__code__)
     assert project.project.openmm_simulation() == 10
