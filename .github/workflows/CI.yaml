@@ -58,7 +58,7 @@ jobs:
       run: |
         python -m pip install . --no-deps
         conda list
-        conda install -c conda-forge openmm
+        
 
     - name: Run tests
 
@@ -66,6 +66,7 @@ jobs:
       shell: bash -l {0}
 
       run: |
+        conda install -c conda-forge openmm
         pytest -v --cov=project --cov-report=xml --color=yes project/tests/
 
     - name: CodeCov
