@@ -6,6 +6,7 @@ import sys
 from setuptools import setup, find_packages
 import versioneer
 
+print(f"Version {versioneer.get_version()}")
 short_description = __doc__.split("\n")
 
 # from https://github.com/pytest-dev/pytest-runner#conditional-requirement
